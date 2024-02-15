@@ -1,0 +1,43 @@
+1. Clona el siguiente repositorio desde GitHub a tu equipo local:
+https://github.com/joseitpfp/ExamSCV.git
+
+2. Crea un documento de texto, autor.txt
+	Dentro del documento de texto pon tu nombre y apellidos
+
+3. Agrega el archivo al área de preparación y Realiza un commit "Agregar nombre"
+
+4. Abre el archivo html y añade la función resta.
+
+5. Agrega de nuevo el archivo al área de preparación y realiza otro commit "Resta"
+
+6. Cambia el color de boton a rojo para la resta y verde para la suma y realiza otro commit "boton colores"
+
+<input type="button" value="Calcular suma" style="background-color: red;" onclick="calcularSuma()">
+
+7. Crea una nueva rama y llámala producto. Cambia a la rama producto.
+
+8. En el archivo html incorpora la parte de código para la multiplicación.
+
+10. Realiza un commit y llámalo multiplicación.
+
+11. Vuelve al commit "botón colores", en este punto, crea otra rama y llámala cociente.
+
+12. Cambia a la rama cociente y e incorpora el código de la división.
+
+13. Realiza un commit y llámalo "división".
+
+14. Regresa al commit "boton color".
+
+15. Realiza un merge en la rama main de la rama producto y cociente a una nueva rama (calculadora)
+
+16. Resuelve los conflictos. 
+
+17. Crea un repositorio en GitHub y sube el proyecto, sube todas las ramas.
+
+18. Edita los colores de los botones en la rama calculadora y realiza un push.
+
+19. Desde gitHub vuelve a editar los colores de los botones y realiza un pull. 
+
+
+
+
