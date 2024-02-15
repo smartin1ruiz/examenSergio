@@ -113,6 +113,46 @@ function calcularResta() {
     }
 }
 </script>
+
+<div class="container">
+    <div class="content">
+        <h2>Multiplicación de dos números</h2>
+
+        <form>
+            <div class="input-container">
+                <label for="num1">Primer número:</label>
+                <input type="text" id="num1">
+            </div>
+            <div class="input-container">
+                <label for="num2">Segundo número:</label>
+                <input type="text" id="num2">
+            </div>
+            <input type="button" class="botonresta"  value="Calcular multiplicacion"  onclick="calcularMultiplicacion()">
+        </form>
+
+        <div id="resultado"></div>
+    </div>
+</div>
+
+<script>
+function calcularMultiplicacion() {
+    // Obtener los valores de los campos de entrada
+    var num1 = parseFloat(document.getElementById("num1").value);
+    var num2 = parseFloat(document.getElementById("num2").value);
+
+    // Verificar si ambos valores son números
+    if (!isNaN(num1) && !isNaN(num2)) {
+        // Calcular la suma
+        var suma = num1 * num2;
+
+        // Mostrar el resultado en el elemento con id "resultado"
+        document.getElementById("resultado").innerHTML = "El resultado de la multiplicacion es: " + suma;
+    } else {
+        // Mostrar un mensaje de error si los valores no son números
+        document.getElementById("resultado").innerHTML = "Por favor, ingrese dos números válidos.";
+    }
+}
+</script>
 </body>
 </html>
 
